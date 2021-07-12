@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Varela+Round|Coda);
+// This site created by Mukhammad
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ecf0f1;
+}
+
+.container {
+    width: 1140px;
+    margin-top: 160px;
+
+    .header {
+        .by-mee {
+            text-align: center;
+            margin-top: 100px;
+            font-size: 16px;
+            font-family: "Coda", sans-serif;
+
+            .by-me {
+                .name {
+                    color: #19747a;
+                }
+            }
+
+            .link {
+                text-decoration: none;
+                font-size: 20px;
+
+            }
+
+            .center {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+
+        .user-text {
+            color: #2c3e50;
+            font-family: "Coda", sans-serif;
+            text-align: center;
+        }
+
+        .user-profile {
+
+            margin: auto;
+            width: 432px;
+            height: 176px;
+            background: #fff;
+            border-radius: 4px;
+
+            .user-img {
+                padding: 11px;
+                margin-left: 4px;
+                margin-top: 4px;
+                height: 100px;
+                width: 100px;
+                border-radius: 288px;
+            }
+
+            .user-name {
+                margin: auto;
+                margin-top: -70px;
+                margin-left: 120px;
+                color: #16a085;
+                font-size: 24px;
+                font-family: "Coda", sans-serif;
+                font-weight: bold;
+            }
+
+            .user-username {
+                margin: auto;
+                display: inline-block;
+                margin-left: 120px;
+                color: #3498db;
+                font-size: 13px;
+                font-family: "varela round", sans-serif;
+            }
+
+            .description {
+                margin: auto;
+                margin-top: 21px;
+                margin-right: 48px;
+                width: 288px;
+                color: #7f8c8d;
+                font-size: 13px;
+                font-family: "varela round", sans-serif;
+
+                .footer {
+                    margin: 32px auto;
+                    height: 60px;
+                    background: #16a085;
+                    text-align: center;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 0.1s;
+                    cursor: pointer;
+
+                    .button {
+                        color: white;
+                        font-family: "Coda", sans-serif;
+                        text-align: center;
+                        font-size: 20px;
+                        background: none;
+                        outline: none;
+                        border: 0;
+                        cursor: pointer;
+                    }
+                }
+
+                .footer:hover {
+                    background: #1abc9c;
+                }
+            }
+
+
+
+
+        }
+    }
+}
+// This site created by Mukhammad
